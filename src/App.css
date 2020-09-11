@@ -1,6 +1,61 @@
 .App {
   text-align: center;
 }
+table {
+  width: 70%;
+  text-align: left;
+}
+th {
+  background-color: #eeeeee;
+}
+table, th, td {
+  border: 1px solid #d4d4d4;
+  border-collapse: collapse;
+  padding: 5px;
+  margin: 20px auto;
+}
+
+.search {
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+}
+.search button {
+  float: right;
+  background: #9e9e9e;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 18px;
+}
+.createUser {
+  text-align: center;
+}
+label {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+.fields {
+  width: 35%;
+  margin: 0 auto;
+}
+input.left-btn {
+  float: left;
+  margin-right: 10px;
+}
+input.right-btn {
+  float: right;
+}
+select#gender {
+  width: 37%;
+}
+
+.popup {
+  text-align: center;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   

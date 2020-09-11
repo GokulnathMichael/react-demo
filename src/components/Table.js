@@ -1,7 +1,10 @@
 import React from 'react';
+import ReactDom from 'react-dom';
+import Popup from 'react-popup';
 
-const Table = () => {
-    return <p>Table</p>
-};
+ReactDom.render(
+    <Popup />,
+    document.getElementById('popupContainer')
+);
 
 export default Table;
